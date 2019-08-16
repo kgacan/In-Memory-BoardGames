@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@model List<BoardGame.Models.BoardGameVM>;
+
+<h2>List of Games</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>PublishingCompany</th>
+            <th>MinPlayers</th>
+            <th>MaxPlayers</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var x in Model)
+        {
+            <tr>
+                <td>@x.Title</td>
+                <td>@x.PublishingCompany</td>
+                <td>@x.MinPlayers</td>
+                <td>@x.MaxPlayers</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

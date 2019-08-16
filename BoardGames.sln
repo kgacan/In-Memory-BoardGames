@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGames", "BoardGames\BoardGames.csproj", "{9F7222E8-2983-43E2-B4A0-D1C0C9F4B975}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGame.Service", "BoardGame.Service\BoardGame.Service.csproj", "{A61FF7C9-208F-4A7B-8C81-246B052E5402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGame.Data", "BoardGame.Data\BoardGame.Data.csproj", "{9B0813A0-C0FE-4853-BF50-013BFF06D001}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9F7222E8-2983-43E2-B4A0-D1C0C9F4B975}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F7222E8-2983-43E2-B4A0-D1C0C9F4B975}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F7222E8-2983-43E2-B4A0-D1C0C9F4B975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61FF7C9-208F-4A7B-8C81-246B052E5402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61FF7C9-208F-4A7B-8C81-246B052E5402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61FF7C9-208F-4A7B-8C81-246B052E5402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61FF7C9-208F-4A7B-8C81-246B052E5402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0813A0-C0FE-4853-BF50-013BFF06D001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0813A0-C0FE-4853-BF50-013BFF06D001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0813A0-C0FE-4853-BF50-013BFF06D001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0813A0-C0FE-4853-BF50-013BFF06D001}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
